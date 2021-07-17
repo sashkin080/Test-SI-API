@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
 
+//import static JsonSchemaValidator.matchesJsonSchemaInClasspath;
+
 class MobileBankApiTestV1 {
     @Test
     void shouldReturnDemoAccounts() {
